@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4BDD2D21B187556009E6B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BDD2D11B187556009E6B6F /* main.m */; };
+		B4BDD2D51B187556009E6B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BDD2D41B187556009E6B6F /* AppDelegate.m */; };
+		B4BDD2D81B187556009E6B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BDD2D71B187556009E6B6F /* ViewController.m */; };
+		B4BDD2DB1B187556009E6B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BDD2D91B187556009E6B6F /* Main.storyboard */; };
+		B4BDD2DD1B187556009E6B6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BDD2DC1B187556009E6B6F /* Images.xcassets */; };
+		B4BDD2E01B187556009E6B6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BDD2DE1B187556009E6B6F /* LaunchScreen.xib */; };
+		B4BDD2EC1B187556009E6B6F /* Dentist_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BDD2EB1B187556009E6B6F /* Dentist_FinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4BDD2E61B187556009E6B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BDD2C41B187556009E6B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4BDD2CB1B187556009E6B6F;
+			remoteInfo = "Dentist Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4BDD2CC1B187556009E6B6F /* Dentist Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dentist Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BDD2D01B187556009E6B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BDD2D11B187556009E6B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4BDD2D31B187556009E6B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4BDD2D41B187556009E6B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4BDD2D61B187556009E6B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4BDD2D71B187556009E6B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4BDD2DA1B187556009E6B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4BDD2DC1B187556009E6B6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4BDD2DF1B187556009E6B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B4BDD2E51B187556009E6B6F /* Dentist FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dentist FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BDD2EA1B187556009E6B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BDD2EB1B187556009E6B6F /* Dentist_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dentist_FinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4BDD2C91B187556009E6B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BDD2E21B187556009E6B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4BDD2C31B187556009E6B6F = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2CE1B187556009E6B6F /* Dentist Finder */,
+				B4BDD2E81B187556009E6B6F /* Dentist FinderTests */,
+				B4BDD2CD1B187556009E6B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4BDD2CD1B187556009E6B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2CC1B187556009E6B6F /* Dentist Finder.app */,
+				B4BDD2E51B187556009E6B6F /* Dentist FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4BDD2CE1B187556009E6B6F /* Dentist Finder */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2D31B187556009E6B6F /* AppDelegate.h */,
+				B4BDD2D41B187556009E6B6F /* AppDelegate.m */,
+				B4BDD2D61B187556009E6B6F /* ViewController.h */,
+				B4BDD2D71B187556009E6B6F /* ViewController.m */,
+				B4BDD2D91B187556009E6B6F /* Main.storyboard */,
+				B4BDD2DC1B187556009E6B6F /* Images.xcassets */,
+				B4BDD2DE1B187556009E6B6F /* LaunchScreen.xib */,
+				B4BDD2CF1B187556009E6B6F /* Supporting Files */,
+			);
+			path = "Dentist Finder";
+			sourceTree = "<group>";
+		};
+		B4BDD2CF1B187556009E6B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2D01B187556009E6B6F /* Info.plist */,
+				B4BDD2D11B187556009E6B6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4BDD2E81B187556009E6B6F /* Dentist FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2EB1B187556009E6B6F /* Dentist_FinderTests.m */,
+				B4BDD2E91B187556009E6B6F /* Supporting Files */,
+			);
+			path = "Dentist FinderTests";
+			sourceTree = "<group>";
+		};
+		B4BDD2E91B187556009E6B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4BDD2EA1B187556009E6B6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4BDD2CB1B187556009E6B6F /* Dentist Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BDD2EF1B187556009E6B6F /* Build configuration list for PBXNativeTarget "Dentist Finder" */;
+			buildPhases = (
+				B4BDD2C81B187556009E6B6F /* Sources */,
+				B4BDD2C91B187556009E6B6F /* Frameworks */,
+				B4BDD2CA1B187556009E6B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dentist Finder";
+			productName = "Dentist Finder";
+			productReference = B4BDD2CC1B187556009E6B6F /* Dentist Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4BDD2E41B187556009E6B6F /* Dentist FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BDD2F21B187556009E6B6F /* Build configuration list for PBXNativeTarget "Dentist FinderTests" */;
+			buildPhases = (
+				B4BDD2E11B187556009E6B6F /* Sources */,
+				B4BDD2E21B187556009E6B6F /* Frameworks */,
+				B4BDD2E31B187556009E6B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BDD2E71B187556009E6B6F /* PBXTargetDependency */,
+			);
+			name = "Dentist FinderTests";
+			productName = "Dentist FinderTests";
+			productReference = B4BDD2E51B187556009E6B6F /* Dentist FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4BDD2C41B187556009E6B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arda Cicek";
+				TargetAttributes = {
+					B4BDD2CB1B187556009E6B6F = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B4BDD2E41B187556009E6B6F = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B4BDD2CB1B187556009E6B6F;
+					};
+				};
+			};
+			buildConfigurationList = B4BDD2C71B187556009E6B6F /* Build configuration list for PBXProject "Dentist Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4BDD2C31B187556009E6B6F;
+			productRefGroup = B4BDD2CD1B187556009E6B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4BDD2CB1B187556009E6B6F /* Dentist Finder */,
+				B4BDD2E41B187556009E6B6F /* Dentist FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4BDD2CA1B187556009E6B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BDD2DB1B187556009E6B6F /* Main.storyboard in Resources */,
+				B4BDD2E01B187556009E6B6F /* LaunchScreen.xib in Resources */,
+				B4BDD2DD1B187556009E6B6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BDD2E31B187556009E6B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4BDD2C81B187556009E6B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BDD2D81B187556009E6B6F /* ViewController.m in Sources */,
+				B4BDD2D51B187556009E6B6F /* AppDelegate.m in Sources */,
+				B4BDD2D21B187556009E6B6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BDD2E11B187556009E6B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BDD2EC1B187556009E6B6F /* Dentist_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4BDD2E71B187556009E6B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4BDD2CB1B187556009E6B6F /* Dentist Finder */;
+			targetProxy = B4BDD2E61B187556009E6B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4BDD2D91B187556009E6B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4BDD2DA1B187556009E6B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4BDD2DE1B187556009E6B6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4BDD2DF1B187556009E6B6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4BDD2ED1B187556009E6B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4BDD2EE1B187556009E6B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4BDD2F01B187556009E6B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dentist Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4BDD2F11B187556009E6B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dentist Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4BDD2F31B187556009E6B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dentist FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dentist Finder.app/Dentist Finder";
+			};
+			name = Debug;
+		};
+		B4BDD2F41B187556009E6B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dentist FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dentist Finder.app/Dentist Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4BDD2C71B187556009E6B6F /* Build configuration list for PBXProject "Dentist Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BDD2ED1B187556009E6B6F /* Debug */,
+				B4BDD2EE1B187556009E6B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BDD2EF1B187556009E6B6F /* Build configuration list for PBXNativeTarget "Dentist Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BDD2F01B187556009E6B6F /* Debug */,
+				B4BDD2F11B187556009E6B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4BDD2F21B187556009E6B6F /* Build configuration list for PBXNativeTarget "Dentist FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BDD2F31B187556009E6B6F /* Debug */,
+				B4BDD2F41B187556009E6B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4BDD2C41B187556009E6B6F /* Project object */;
+}
