@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[AC sharedInstance] initWithBaseURL:@"http://api.dentistapi.dev/" testFlightID:nil FBAppID:nil encryptionKey:nil encryptionVector:nil];
     return YES;
 }
 
